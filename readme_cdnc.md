@@ -2,7 +2,7 @@
 一、怎么连接到cdncloud的7牛云
     Config 增加私有化的配置项
 
-===============================================
+/h1 ===============================================
     cfg := storage.Config{
 		UseHTTPS: true, // 如果是http的url 这个参数为false 
 		RsHost:   "https://rs.xxx.com",
@@ -11,7 +11,7 @@
 		ApiHost:  "https://api.xxx.com",
 		IoHost:   "https://io.xxx.com",
 	}
-===============================================
+/h1 ===============================================
 
 	mac := auth.New(accessKey, secretKey)
 
